@@ -1,0 +1,66 @@
+/* Paleta de colores */
+:root {
+    --color-primario: #384B70;
+    --color-secundario: #507687;
+    --color-fondo: #FCFAEE;
+    --color-acento: #B8001F;
+}
+
+/* Estilo general */
+body {
+    background-color: var(--color-fondo);
+    font-family: Arial, sans-serif;
+    color: var(--color-primario);
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: var(--color-primario);
+}
+
+.navbar .nav-link {
+    color: var(--color-fondo);
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-acento);
+}
+
+/* Contenido principal */
+.container {
+    padding: 50px;
+}
+
+h1 {
+    color: var(--color-primario);
+}
+
+p {
+    color: var(--color-secundario);
+}
+
+/* Botones (opcional) */
+.btn-personalizado {
+    background-color: var(--color-acento);
+    color: var(--color-fondo);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-personalizado:hover {
+    background-color: var(--color-primario);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primario);
+    color: var(--color-fondo);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
